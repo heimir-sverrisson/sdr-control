@@ -11,3 +11,10 @@ a REST endpoint to turn on/off the transmitter, thus simulating a PTT.
 
 Before running this software follow the excellent install instruction for the `FT232H` found
 on the [Adafruit site](https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/overiew)
+
+## Hardware setup
+
+This is how the button is wired to the `FT232H`. ![Wiring diagram](images/circuit.jpg)
+
+Note that the pinout is different on the Micro-USB version of the `FT232H` board. This is the
+USB-C version.
